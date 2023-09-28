@@ -1,1 +1,15 @@
-
+/* Apply a purple background color */
+body {
+    background-color: purple;
+  }
+  
+  /* Style the quote */
+.quote {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }  
