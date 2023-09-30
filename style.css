@@ -12,4 +12,41 @@ body {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
+    box-shadow: 2px 4px 5px white;
   }  
+  .header {
+    text-align: center; /* Center-align the text */
+    color: white;
+  }
+  .header h1 {
+    color: white;
+  }
+
+  .image img {
+    border-radius: 100%; 
+    box-shadow: 0 0 30px white;
+  }
+/* Initial styles for h1 inside the body */
+body h1 {
+  color: black;
+  font-size: 24px; 
+  text-shadow: none;
+  transition: color 0.3s, font-size 0.3s, text-shadow 0.3s; 
+}
+
+body h1:hover {
+  color: yellow; 
+  font-size: 28px; 
+  animation: pulse-shadow 1s infinite alternate; 
+}
+
+
+@keyframes pulse-shadow {
+  0% {
+    text-shadow: 2px 2px 4px white; 
+  }
+  100% {
+    text-shadow: 4px 4px 6px white; 
+  }
+}
+
